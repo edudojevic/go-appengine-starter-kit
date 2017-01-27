@@ -3,7 +3,6 @@ go:
 - 1.x
 deploy:
   provider: gae
-  keyfile: project-service-account.json
   project: go-appengine-starter-kit
 env:
   global:
