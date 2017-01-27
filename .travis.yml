@@ -12,3 +12,6 @@ before_install:
 - openssl aes-256-cbc -K $encrypted_7945307015f6_key -iv $encrypted_7945307015f6_iv
   -in project-service-account.json.enc -out project-service-account.json
   -d
+
+install:
+  - rm project-service-account.json
